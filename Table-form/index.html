@@ -99,8 +99,21 @@
                 </form>
                 <label for="question">ご用件[必須] </label>
                 <select id="question">
-                    <option value="customers"></option>
+                    <option value="選ぶ">選択してください</option>
+                    <option value="個人のお客様">書籍についてのご質問</option>
+                    <option value="取次・書店様">書籍についてのご質問</option>
+                    <option value="メディアプ関係者様">書籍についてのご質問</option>
+                    <option value="アルバイト">アルバイト。パートに関するお問い合わせ</option>
+                    <option value="仕事">仕事のご依頼・お問い合わせ</option>
+                    <option value="フリーの方、制作会社様">外部スタッフのご希望</option>
+                    <option value="その他">そのほかの問い合わせ</option>
+                </select>
             </div>
+            <p>お問い合わせ内容[必須]</p>
+            <textarea rows="10" cols="40" name="お問い合わせ内容[必須]"></textarea>
         </div>
+        <p>
+            <input type="submit" value="確認"/>
+        </p>
 </body>
 </html>
