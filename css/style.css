@@ -6,11 +6,15 @@
    box-sizing:border-box; 
 }
 body {
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    background-image: url(../IMG_kieran/KRN02906.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.span {
+    
+}
+
 }
 
 .font-josefin {
@@ -22,17 +26,22 @@ p {
     margin-bottom: 20px;
 }
 h1 {
+    position: relative;
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 80px;
     margin-bottom: 20px;
+    left: 40px;
     text-align: left;
+
 
 }
 h3 {
+    position: relative;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(211, 121, 60);
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    left: 40px;
     text-align: left;
     padding: 10px 10px
 }
@@ -56,6 +65,7 @@ h4 {
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 990px;
 }
 .project a:hover {
     filter:none
@@ -64,14 +74,14 @@ h4 {
     clear: both;
 }
 .wrapper {
-    margin: 0 auto;
-    padding: 0 10px;
+    margin: 10px;
+    padding: 0 0px;
     width: 500px;
 }
 .container {
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    max-width: 900px;
-    margin: 80px    ;
+    margin: 80px 0;
     /* margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
@@ -79,66 +89,63 @@ h4 {
     padding-bottom: 50px;
 
 }
-#top {
-    background-image: url(../IMG_kieran/PSX_20220821_103904.jpg);
-    background-position-y: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px; 
-    padding-top: 1px;
-}
 #top h1 {
-    margin: 180px 0 40px 0;
+    margin: 10px 0 20px 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 #projects {
     padding: 60px 0;
     text-align: center;
 }
 .kiri {
-    margin: 0 auto;
+    position: relative;
+    margin: 250px;
+    margin-left: 0px;
+    bottom: 250px;
+    left: 100px;
     padding: 0 10px;
     width: 1000px;
 }
 .kanan {
-    margin: 0 auto;
+    position: relative;
+    margin: 250px;
+    margin-left: 0px;
+    bottom: 800px;
+    left: 1000px;
     padding: 0 10px;
     width: 1000px;
 }
 #projects article {
-    width: 500px;
-    height: 360px;
+    width: 650px;
+    height: 550px;
     float: left;
     background-color: #ffffff;
 }
 #projects article:first-child {
-    margin-right: 20px;
+    margin-left: 50px;
 }
 #projects article .overlay-kiri {
-    background: rgba(70, 70, 70, 0.95);
-    height: 360px;
+    height: 500px;
     width: 190px;
     padding: 40px;
 }
 #projects article .overlay-kanan {
-    background: rgba(70, 70, 70, 0.95);
-    height: 360px;
+    height: 500px;
     width: 190px;
     padding: 40px;
 }
 article h4 {
-    border-bottom: 1px solid #d85725;
-    padding-bottom: 20px;  
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 45px;
 }
 .more-link {
-    border: 1px solid #d85725;
-    color: #d85725;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     padding: 6px 20px;
     border-radius: 3px;
 }
 .more-link:hover {
-    background-color: #d85725;
+    background-color: #c5c5c5;
     color: #fff;
 }
 
