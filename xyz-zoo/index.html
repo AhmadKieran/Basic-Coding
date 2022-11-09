@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Latihan 1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>Latihan 1</title>
+    <style>
+        :root {
+            --gradient : linear-gradient(90deg, #F4D03F 0%, #16A085 100%);
+        }
+        body {
+            min-height: 100vh;
+            background-color: #F4D03F;
+            background-image: var(--gradient);
+            background-size: 200%;
+            animation: gradient-animation 5s infinite alternate;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: left;
+            }
+
+            100% {
+                background-position: right;
+            }
+        }
+    </style>
 </head>
 <body>
     <div>
